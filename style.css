@@ -4,11 +4,62 @@
   box-sizing: border-box;
   font-family: consolas;
 }
-
+/* 
 body {
     background: orange;
-  }
+  } */
   
+  .first-div-height{
+    height: 550px;
+  }
+
+  .second-div-height{
+    height: 450px;
+  }
+
+  .add-bg-image-first-div{
+    background: url('./images/img1.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+  }
+  .third-div-height{
+    height: 300px;
+  }
+  .fouth-div-bg-img{
+    background: url('./images/img2.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+  }
+  .bg-color-gray{
+    background-color: rgb(245, 244, 244);
+  }
+  .text-large {
+    font-size: 33px;
+  }
+  .text-opacity{
+    opacity: 1;
+  }
+  .margin-top-first-heading{
+    margin-top: 50px;
+  }
+  .set-div-center{
+    display: flex;
+    justify-content: center !important;
+  }
+  .set-main-heading{
+    width:40%;
+    display: flex !important;
+    margin: auto;
+  }
+  .card-title{
+    font: bold 500px;
+    font-weight: 500;
+    font-size: 20px;
+  }
   .bx2 {
     background: #4a7eb8;
     display: flex;
@@ -49,3 +100,34 @@ body {
     margin: auto;
     cursor: pointer;
   }
+
+  .fourth-div-height{
+    height: 400px;
+  }
+  .card-size{
+  width: 400px;
+  }
+  .margin-card {
+ padding-top: 6rem;
+ padding-bottom: 6rem;
+ margin-bottom: 6rem;
+  }
+  .fontsize{
+    font-size: 45px;
+    line-height: 40px;
+  }
+.footer-style {
+  background-color: rgb(207, 204, 204);
+  height: 150px;
+}
+.card1-img-hgt{
+  height: 100%;
+}
+.padding-text-logo{
+  padding-left:52px;
+  padding-top:5px;
+}
+a{
+  text-decoration: none !important;
+  color: black;
+}
