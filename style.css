@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+body {
+    background: orange;
+  }
+  
+  .bx2 {
+    background: #4a7eb8;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .round{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    background-color: blue;
+    color: blue;
+    display:inline-block;
+  }
+  .logo{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .learn{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+
+  }
+  .lorem{
+    flex-wrap: wrap;
+    max-width: 180px;
+  }
+  
+  .social i{
+    color: #ffff;
+    display: flex;
+    font-size: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+  }
